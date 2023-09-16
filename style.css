@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(./klkl.webp);
+}
+
+.image-container {
+    position: relative;
+    margin: 20px;
+}
+
+.image-container img {
+    width: 300px; /* Adjust the width as needed */
+    height: auto;
+    border: 2px solid #ccc;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+body {
+    text-align: center; /* Text centering */
+}
+
+.image-container {
+    display: inline-block; /* Display images in a row */
+    margin: 10px;
+}
+
+.image-container img {
+    width: 300px;
+    height: auto;
+    border: 2px solid #ccc;
+}
+
+h1, h2 {
+    color: white; /* Change text color to white */
+}
